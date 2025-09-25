@@ -805,6 +805,7 @@ initial_entities:
     type: property
     access_mod: RW
     value_type: long
+    identifier: new_custom_entity_abc
 
 codec:
   id: default
