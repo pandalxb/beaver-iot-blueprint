@@ -1,0 +1,10 @@
+models:
+  - id: am102
+    name: AM102
+    template: am102/device-template.yaml
+  - id: am102l
+    name: AM102L
+    template: am102l/device-template.yaml
+  - id: am103
+    name: AM103
+    template: am103/device-template.yaml

@@ -801,6 +801,11 @@ initial_entities:
         'false': 'no'
         'true': 'yes'
     identifier: stop_transmit
+  - name: New Custom Entity ABC
+    type: property
+    access_mod: RW
+    value_type: long
+
 codec:
   id: default
   ref: uc512_di/codec/device-codec.yaml
