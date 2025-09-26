@@ -1591,12 +1591,3 @@ blueprint:
     valve_2_opening_entity_id:
       type: entity_id
       identifier: valve_2_opening
-    valve_2_opening_entity_key:
-      type: entity_key
-      identifier: valve_2_opening
-    valve_1_opening_duration_entity_id:
-      type: entity_id
-      identifier: valve_1_opening_duration
-    valve_1_opening_duration_entity_key:
-      type: entity_key
-      identifier: valve_1_opening_duration
