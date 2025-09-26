@@ -1578,7 +1578,7 @@ codec:
   id: default
   ref: uc521/codec/device-codec.yaml
 blueprint:
-  dir: uc521/blueprint/
+  dir: uc521/blueprint2/
   values:
     device_id:
       type: device_id
