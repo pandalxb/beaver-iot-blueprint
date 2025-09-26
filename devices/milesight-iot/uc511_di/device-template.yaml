@@ -800,7 +800,6 @@ initial_entities:
       enum:
         'false': 'no'
         'true': 'yes'
-    identifier: stop_transmit
 codec:
   id: default
   ref: uc511_di/codec/device-codec.yaml
