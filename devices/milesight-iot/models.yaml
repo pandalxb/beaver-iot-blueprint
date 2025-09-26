@@ -1,7 +1,7 @@
 models:
-  - id: am102
-    name: AM102
-    template: am102/device-template.yaml
+  - id: em300_th
+    name: EM300-TH
+    template: em300_th/device-template.yaml
   - id: uc511_di
     name: UC511-DI
     template: uc511_di/device-template.yaml

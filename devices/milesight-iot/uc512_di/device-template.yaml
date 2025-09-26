@@ -806,10 +806,11 @@ initial_entities:
     access_mod: RW
     value_type: long
     identifier: new_custom_entity_abc
-  - name: New Custom Entity DDD
+  - name: New Custom Entity NewB
     type: property
     access_mod: RW
     value_type: long
+    identifier: new_custom_entity_new_b
 
 codec:
   id: default

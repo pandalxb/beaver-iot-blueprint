@@ -1,0 +1,4 @@
+models:
+  - id: ker512
+    name: KER512
+    template: ker512/device-template.yaml
