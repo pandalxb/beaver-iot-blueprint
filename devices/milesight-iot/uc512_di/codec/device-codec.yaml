@@ -1,2 +1,15 @@
 codecs:
-
+  - id: default
+    decoder:
+      chain:
+        - script: uc512_di/codec/decoder.js
+          entry: Decode
+          args:
+            - id: fPort
+            - id: bytes
+              is_payload: true
+        - script: common/codec/flatten.js
+          entry: process
+          args:
+            - id: obj
+              is_payload: true
