@@ -693,6 +693,7 @@ initial_entities:
     attributes:
       unit: '%'
     identifier: valve_1_opening
+    important: 1
   - name: Valve 1 Direction
     type: property
     access_mod: R
@@ -718,6 +719,7 @@ initial_entities:
     attributes:
       unit: '%'
     identifier: valve_2_opening
+    important: 2
   - name: Valve 2 Direction
     type: property
     access_mod: R
@@ -1066,6 +1068,7 @@ initial_entities:
     type: property
     access_mod: RW
     value_type: object
+    important: 1
     children:
       - name: Valve 1 Task (Task ID)
         value_type: long
@@ -1086,6 +1089,7 @@ initial_entities:
     type: property
     access_mod: RW
     value_type: object
+    important: 2
     children:
       - name: Valve 2 Task (Task ID)
         value_type: long
